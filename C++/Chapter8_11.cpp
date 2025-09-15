@@ -57,4 +57,6 @@ int main()
 	int(*fptr2)() = &Something::getValue;
 
 	cout << fptr2() << endl;
+
+	cout << 1;
 }
