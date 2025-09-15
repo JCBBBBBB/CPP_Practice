@@ -50,7 +50,7 @@ public:
 
 	float GetX(Point& point)
 	{
-		point.
+		return point.m_x;
 	}
 };
 
@@ -60,4 +60,6 @@ int main()
 	cin >> p1 >> p2;
 
 	cout << p1 << p2;
+
+	cout << 1;
 }
